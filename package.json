@@ -2,11 +2,10 @@
   "name": "mithrilbox",
   "version": "1.0.0",
   "private": true,
-  "description": "Theatre of pain",
+  "description": "An experiment with mithril.js",
   "scripts": {
-    "build": "webpack --env production",
-    "start": "webpack-dev-server --env development --content-base ./dist",
-    "oldstart": "webpack src/index.js --output bin/app.js -d --watch",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --content-base ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
